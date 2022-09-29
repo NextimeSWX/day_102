@@ -1,0 +1,12 @@
+int is_between(int low, int high, int nb) {
+
+    if (nb > low && nb < high) {
+        return 0;
+    }
+    else if(nb <= low && nb >= high) {
+        return 1;
+    }
+    else (0) {
+            return 0;
+        }
+}
