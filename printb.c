@@ -8,11 +8,9 @@ void stu_putchar (char c)
 
 int main(void)
 {
-    char a;
-
-    a = 'a';
-    a = a + 1;
-    stu_putchar(a);
+    char b;
+    b = 'b';
+    stu_putchar(b);
     stu_putchar('\n');
     return(0);
 }
